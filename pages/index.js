@@ -1,15 +1,6 @@
-import Head from 'next/head'
-
 export default function Home() {
   return (
     <div className="bg-black">
-      <Head>
-        <title>UTHUPIA</title>
-        <meta name="description" content="UTHUPIAS official website" />
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@500&display=swap" rel="stylesheet"></link>
-      </Head>
-
       <main className="">
         <div className="min-h-screen bg-black flex flex-col justify-center relative">
             <h1 className=" text-7xl font-extrabold text-gray-300 text-center py-2 ">
