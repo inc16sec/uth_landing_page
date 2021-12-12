@@ -23,8 +23,7 @@ export default function Home() {
               </h1>
 
               <p className="text-gray-50 text-center md:max-w-md font-light max-w-xs mx-auto ">
-                We are working on a cool new project. If you're interested please
-                leave your email below and we'll notify you.
+               {"We are working on a cool new project. If you're interested please leave your email below and we'll notify you."}
               </p>
               <div className="flex justify-center pt-6">
                 <div className=" flex md:space-x-3 bg-gray-800 rounded-md p-2 justify-between flex-col md:flex-row">
