@@ -1,7 +1,7 @@
 export default function Privacy() {
     return (
-        <main className="sm:px-24 px-12 min-h-screen bg-black text-white py-12 space-y-4 flex flex-col justify-center relative">
-            <div className="">
+        <div>
+            <main className="sm:px-24 px-8 bg-black text-white py-12 space-y-4 flex flex-col justify-center">
                 <div className="space-y-6 pb-10">
                     <h1 className="text-4xl font-bold pb-6">Privacy Policy</h1>
                     <p>Last updated: December 12, 2021</p>
@@ -61,7 +61,7 @@ export default function Privacy() {
                 <div className="space-y-6 pb-10">
                     <h1 className="text-4xl font-bold pb-6">Collecting and Using Your Personal Data</h1>
 
-                    <h2 className="text-3xl font-bold pb-4">Types of Data Collected</h2>
+                    <h2 className="sm:text-3xl text-xl font-bold pb-4">Types of Data Collected</h2>
                     <h3 className="text-2xl font-bold pb-2">Personal Data</h3>
                     <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
                     <ul className="space-y-4 list-disc pl-8 pb-2">
@@ -90,7 +90,10 @@ export default function Privacy() {
                     <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p>
                     <ul className="space-y-4 list-disc pl-8">
                         <li><strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</li>
-                        <li><strong>Flash Cookies.</strong> Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read &quot;Where can I change the settings for disabling, or deleting local shared objects?&quot; available at <a href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_" rel="noreferrer" target="_blank">https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_</a></li>
+                        <li>
+                            <strong>Flash Cookies.</strong> {"Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read &quot;Where can I change the settings for disabling, or deleting local shared objects?&quot; available "}<a className="underline text-blue-400" href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_" rel="noreferrer" target="_blank">Here</a>
+                        </li>
+
                         <li><strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
                     </ul>
                     <p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies here: <a href="https://www.termsfeed.com/privacy-policy-generator/#faq-8" target="_blank" rel="noreferrer">Cookies by TermsFeed Generator</a>.</p>
@@ -220,7 +223,7 @@ export default function Privacy() {
                         </li>
                     </ul>
                 </div>
-            </div>
-        </main>
+            </main>
+        </div>
     )
 }
