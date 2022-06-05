@@ -1,8 +1,61 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
-    <div className="bg-black">
-      <main className="">
-        <div className="min-h-screen bg-black flex flex-col justify-center relative">
+    <div className="bg-black bg-cover bg-phone-02">
+      <main className="backdrop-filter backdrop-blur-lg">
+
+
+        <div className="min-h-screen flex flex-col justify-center relative">
+
+            <div className="flex flex-no-wrap flex-col md:flex-row items-center justify-between md:pt-32 pt-16 pb-16 pr-16 md:pr-32 pl-16 md:pl-32">
+
+            <Image
+                src={"https://firebasestorage.googleapis.com/v0/b/tubetest-886c6.appspot.com/o/landing_page%2Fbg_image_2.png?alt=media&token=1299e329-13e9-4cd1-9133-875da4f6616c"}
+                alt="A second screenshot of the mobile app."
+                // layout="fill"
+                width={1029} //automatically provided
+                height={1405} //automatically provided
+                // blurDataURL="data:..." automatically provided
+                // placeholder="blur" // Optional blur-up while loading
+              />
+
+              <div className="flex flex-no-wrap flex-col items-start space-y-8 md:pl-16 pt-16">
+                <p className="font-bold md:leading-relaxed leading-relaxed md:text-5xl text-3xl text-white">
+                    Explore and share your best creative work in a place where you'll feel understood.
+                </p>
+                <p className="font-lexend-tera text-gray-300 text-xs">
+                    UTHUPIOS
+                </p>
+              </div>
+              
+            </div>
+
+            <div className="flex flex-no-wrap flex-col md:flex-row items-center justify-between pt-16 pb-16 pr-16 md:pr-32 pl-32">
+
+              <div className="flex flex-no-wrap flex-col items-start space-y-4">
+                <p className="text-xl text-white pr-16">
+                    ''I find social media today so hard to navigate. From Instagram attention seekers to the angry users of Twitter, but what is even worse is that the algorithms favours not talent and creativity, but loudness and money making.''
+                </p>
+                <p className="font-lexend-tera text-gray-300 text-xs">
+                    UTHUPIOS
+                </p>
+              </div>
+
+              
+              <Image
+                src={"https://firebasestorage.googleapis.com/v0/b/tubetest-886c6.appspot.com/o/landing_page%2Fbg_image_1.png?alt=media&token=487c7d47-8930-45c9-a395-ff590f9885aa"}
+                alt="A screenshot of the mobile app."
+                // layout="fill"
+                width={1175} //automatically provided
+                height={1448} //automatically provided
+                // blurDataURL="data:..." automatically provided
+                // placeholder="blur" // Optional blur-up while loading
+              />
+              
+            </div>
+
+
             <h1 className=" text-7xl font-extrabold text-gray-300 text-center py-2 ">
               UTHUPIA
             </h1>
